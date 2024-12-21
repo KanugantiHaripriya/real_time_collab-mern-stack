@@ -1,0 +1,45 @@
+body{
+    background-color: #f8f8f8;
+}
+.home-container{
+    background-color: rgb(233, 240, 245);
+    margin:3% 23% 3% 23%;
+    padding: 5%;
+    text-align: center;
+}
+.home-container h1{
+font-family: "Acme", serif;
+font-size: 400%;
+    }
+.home-container p{
+    font-family: "Acme", serif;
+    font-size: 185%;
+            }
+            buttons {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+              }
+              
+              .home-btn {
+                padding: 22px 30px;
+                margin: 5%;
+                font-size: 1.8rem;
+                cursor: pointer;
+                border: none;
+                border-radius: 5px;
+                background-color: #100a87;
+                color: white;
+                transition: background-color 0.3s;
+              }
+              
+              .home-btn:hover {
+                background-color: #a177c9;
+              }
+ 
+  
+  
+  
+  
+  
+  

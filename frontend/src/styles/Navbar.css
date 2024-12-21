@@ -1,0 +1,47 @@
+/* Navbar.css */
+
+/* Navbar container */
+.navbar {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Title for CollabTool */
+  .navbar-title h1 {
+    font-size: 5rem; /* Larger font for CollabTool */
+    color: #333;
+    margin: 0;
+    padding: 2%;
+    font-family: "Acme", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  /* Links below the title */
+  .navbar-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.8%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 239, 250);
+  }
+  
+  .navbar-links li {
+    margin: 0 80px;
+    font-family: "Acme", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+  
+  .navbar-links a {
+    color: #555; /* Lighter color for links */
+    text-decoration: none;
+    font-size: 220%; /* Smaller font for the links */
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3
+  }  
+  
